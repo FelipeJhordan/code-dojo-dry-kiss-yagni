@@ -7,7 +7,7 @@ type User = {
 
 
 
-const yagniWrongExample = {
+const yagniBestExample = {
     validate: () => {
 
         const validateEmail = ({ email }: User) => {
@@ -43,4 +43,4 @@ const yagniWrongExample = {
     }
 }
 
-export default yagniWrongExample
+export default yagniBestExample

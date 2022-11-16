@@ -5,6 +5,7 @@ import kissWrongExample from "./kiss/wrong-example"
 import kissBetterExample from "./kiss/better-example"
 
 import yagniWrongExample from "./yagni/wrong.example"
+import yagniBestExample from "./yagni/better-example"
 
 console.info("DryExamples \n")
 
@@ -29,4 +30,11 @@ console.log(kissBetterExample(1))
 
 console.info("\nYagniExamples\n")
 
+
+console.log("Wrong")
 console.log(yagniWrongExample.validate())
+
+
+console.log("Best")
+console.log(yagniWrongExample.validate())
+console.log(yagniBestExample.validate())
