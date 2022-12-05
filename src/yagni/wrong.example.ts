@@ -41,13 +41,10 @@ const yagniWrongExample = {
         }
 
 
-        const applyValidators = validationsInUse.reduce((previousValue, validationFn) => {
+        return validationsInUse.reduce((previousValue, validationFn) => {
             return validationFn(user)
         }, true);
 
-        if (!applyValidators) {
-            return false
-        }
     }
 }
 
